@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  </head>
+  <body>
+  <nav id="desktop-nav">
+    <div class="logo">Lance Anthony A. Carmona</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Lance Anthony A. Carmona</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#project" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section_pic-container">
+      <img src="picture.jpeg" alt="lance profile">
+    </div>
+    <div class="section_text">
+      <p class="section_text_p1">Hello, I'm</p>
+      <h1 class="title">Lance Anthony A. Carmona</h1>
+      <p class="section_text_p2">Web Developer</p>
+      <button class="btn btn-color-2" onclick="location.href='./#about'">
+        About me
+      </button>
+      <button class="btn btn-color-1" onclick="location.href='./#contact'">
+        Contact Info
+      </button>
+      <br>
+      <br>
+
+      <div id="socials-container">
+      <a href="#" class="btn"><i class="fa-brands fa-facebook" class="icon" onclick="location.href='https://www.facebook.com/lanceantony.camona'"></i></a>
+      <a href="#" class="btn"><i class="fa-brands fa-instagram" class="icon" onclick="location.href='https://www.instagram.com/lanceeeee_05?igsh=Z2tqM2ZzcnJnb2Jz'"></i></a>
+      <a href="#" class="btn"><i class="fa-brands fa-github" class="icon" onclick="location.href='https://github.com/lancee23'"></i></a>
+    </div>
+    </div>
+    
+  </section>
+  <section id="about">
+    <p class="section_text_p1">Get To Know More</p>
+    <h1 class="title">About me</h1>
+    <br>
+    <br>
+
+    <div class="section-container">
+      <div class="section_pic-containers">
+        <img src="picture3.jpeg" alt="Profile pic" class="about-pic"/>
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+              <h3>Experience<h3>
+                <p>Designed and developed responsive websites using HTML, CSS, JavaScript improving user experience across devices.</p>
+          </div>
+          <div class="details-container">
+              <h3>Education</h3>
+                <p><b>Bachelor of Science in Information and Technology<br /> 1st Year college</b></p>
+            </div>
+        </div>
+        <div class="text-container">
+          <p>Hi! My name is Lance, and I’m currently a 1st year college student at STI college Alabang. I enjoy learning new things, especially in my free time, I like to play online games. I’m passionate about improving myself and exploring opportunities that help me grow as a person. I value honesty, creativity, and kindness, and I always try to bring a positive attitude wherever I go.
+
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="project">
+    <p class="section_text_p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="btn-container">
+            <img src="Projectlast.jpg" alt="Project" class="project-img"/>
+          </div>
+          <h2 class="experience-sub-title project-title">Project One</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/lancee23">
+          Github</button>
+          </div>
+           
+        </div>
+        <div class="details-container color-container">
+          <div class="btn-container">
+            <img src="Project.png" alt="Project" class="project-img"/>
+          </div>
+          <h2 class="experience-sub-title project-title">Project Two</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/lancee23">
+          Github</button>
+          </div>
+           
+        </div>
+        <div class="details-container color-container">
+          <div class="btn-container">
+            <img src="Project3.webp" alt="Project" class="project-img"/>
+          </div>
+          <h2 class="experience-sub-title project-title">Project Three</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/lancee23">
+          Github</button>
+          </div>
+           
+        </div>
+      </div>
+    </div>
+    
+  </section>
+  <section id="contact">
+    <p class="section_text_p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <p><a href="mailto:lanceanthonycarmona41@gmail.com">lanceanthonycarmona41@gmail.com</a></p>
+        
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2025 Lance Anthony A. Carmona. All Right Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+  </body>
+</html>
